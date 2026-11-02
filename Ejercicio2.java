@@ -11,12 +11,12 @@ public class Ejercicio2 {
         System.out.println("Lista original: " + notas);
 
         notas.sort(null);
-        System.out.println("Muestra la lista ordenada: " + notas);
+        System.out.println("Lista ordenada: " + notas);
 
         java.util.List<Double> tresPrimeras = notas.subList(0, 3);
-        System.out.println("Muestra las tres primeras notas: " + tresPrimeras);
+        System.out.println("Las tres primeras notas: " + tresPrimeras);
 
         notas.sort(java.util.Comparator.reverseOrder());
-        System.out.println("Muestra la lista final: " + notas);
+        System.out.println("Lista final: " + notas);
     }
 }
